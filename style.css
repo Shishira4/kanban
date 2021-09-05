@@ -10,3 +10,9 @@ html, body {
   .tasks {
     min-height: 450px;
   }
+  .page-title
+  {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 10px;
+  }

@@ -18,8 +18,12 @@
       href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
+  <h1 class="page-title">Kanban Board</h1>
     <div class="container py-5">
         <div class="row">
           <div class="col-12 col-lg-4">
@@ -36,16 +40,16 @@
                 <div class="tasks" id="to-do">
                   <div class="card mb-3 cursor-grab" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card-body" >
-                      <p class="mb-0">You can move these elements between the containers</p>
+                      <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, natus veniam.</p>
                     </div>
                   </div>
                   <div class="card mb-3 cursor-grab" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card-body" >
-                      <p class="mb-0">Moving them anywhere else isn't quite possible</p>  
+                      <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, natus veniam.</p>  
                     </div>
                   </div>
                 </div>
-                <div class="btn btn-primary btn-block">Add task</div>
+                <div class="btn btn-primary btn-block" onclick="add(event)">Add task</div>
               </div>
             </div>
           </div>
@@ -64,16 +68,16 @@
                 <div class="tasks" id="doing">
                   <div class="card mb-3 cursor-grab" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card-body">
-                      <p class="mb-0">Moving them anywhere else isn't quite possible</p>
+                      <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, natus veniam.</p>
                     </div>
                 </div>
                   <div class="card mb-3 cursor-grab" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card-body">
-                      <p class="mb-0">Anything can be moved around. That includes images, links or any other nested elements.</p>
+                      <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, natus veniam.</p>
                     </div>
                   </div>
                 </div>
-                <div class="btn btn-primary btn-block">Add task</div>
+                <div class="btn btn-primary btn-block" onclick="add(event)">Add task</div>
               </div>
             </div>
           </div>
@@ -92,16 +96,16 @@
                 <div class="tasks" id="done">
                   <div class="card mb-3 cursor-grab" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card-body"">
-                      <p class="mb-0">Moving them anywhere else isn't quite possible</p>
+                      <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, natus veniam.</p>
                     </div>
                   </div>
                   <div class="card mb-3 cursor-grab" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card-body">
-                      <p class="mb-0">You can move these elements between the containers</p>
+                      <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, natus veniam.</p>
                     </div>
                   </div>
                 </div>
-                <div class="btn btn-primary btn-block">Add task</div>
+                <div class="btn btn-primary btn-block" onclick="add(event)">Add task</div>
               </div>
             </div>
           </div>
