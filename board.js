@@ -8,7 +8,6 @@ function drag(ev) {
 
 function drop(ev) {
   ev.preventDefault();
-  var data = document.createElement(''); 
-  data = ev.dataTransfer.getData("text");
+  var data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementsByClassName(data));
 }
